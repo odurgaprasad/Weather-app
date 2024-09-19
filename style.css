@@ -52,11 +52,11 @@ body {
   width: 170px;
   margin-top: 30px;
 }
-h1 {
+.weather h1 {
   font-size: 5rem;
   font-weight: 800;
 }
-h2 {
+.weather h2 {
   font-size: 2rem;
   font-weight: 500;
   margin-top: -20px;
@@ -71,8 +71,9 @@ h2 {
 }
 .cols {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 20px;
 }
 .cols img {
   margin-right: 10px;
